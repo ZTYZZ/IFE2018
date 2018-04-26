@@ -1,0 +1,79 @@
+
+/*页面的背景*/
+html {
+    background-color:gray;
+    margin:0;
+    padding:0;
+}
+/*整个body的配置*/
+body {
+    width:80%;
+    padding:0;
+    margin:0 auto;
+    background-color:snow;
+    
+}
+
+/*简历主标题*/
+
+h1 {
+    text-align:center;
+    margin:0;
+}
+
+/*简历副标题*/
+
+h2 {
+    color:lightblue;
+    font-weight:bold;
+    text-decoration:underline;
+    font-style:italic;
+}
+
+/*个人经历*/
+.personal-data p{
+    text-indent:50px;
+    font-size:20px;
+    line-height:30px;
+}
+.personal-data address{
+    text-indent:50px;
+    font-size:20px;
+    line-height:30px;
+}
+
+/*特殊技能*/
+.special-skill ul{
+    font-size:20px;
+    line-height:30px;
+}
+
+/*工作经历*/
+
+.work-experience ol{
+    font-size:20px;
+    line-height:30px;
+}
+
+/*教育经历*/
+.education ol {
+    font-size:20px;
+    line-height:30px;
+}
+
+/*项目经验*/
+
+.project-experience .project-a{
+    font-size:20px;
+    line-height:30px;
+}
+
+.project-experience .project-b{
+    font-size:20px;
+    line-height:30px;
+}
+
+.project-experience .project-c{
+    font-size:20px;
+    line-height:30px;
+}
