@@ -53,3 +53,51 @@ li{
     background-size:25px 25px;
 }
 
+
+/*为邮箱添加效果*/
+a:link {
+    text-decoration:none;
+    color:red;
+
+}
+
+a:visited {
+    color:blue;
+}
+a:hover {
+    border:1px solid red;
+    color:black;
+}
+
+/*个人资料图标*/
+
+.personal-data .name {
+    background:url(../image/name.png) no-repeat 0 0;
+    background-size: 30px 30px;
+    text-indent:35px;
+}
+.personal-data .sex {
+    background:url(../image/sex.png) no-repeat 0 0;
+    background-size: 30px 30px;
+    text-indent:35px;
+}
+.personal-data .address {
+    background:url(../image/adress.png) no-repeat 0 0;
+    background-size: 30px 30px;
+    text-indent:35px;
+}
+.personal-data .mail {
+    background:url(../image/mail.png) no-repeat 0 0;
+    background-size: 30px 30px;
+    padding-left:35px; /*非文本标签不可以是用text-indent所以使用padding-left解决*/
+}
+.personal-data .phone-number {
+    background:url(../image/phone-number.png) no-repeat 0 0;
+    background-size: 30px 30px;
+    text-indent:35px;
+}
+.personal-data .age {
+    background:url(../image/age.png) no-repeat 0 0;
+    background-size: 30px 30px;
+    text-indent:35px;
+}
