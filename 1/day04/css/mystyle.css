@@ -1,0 +1,55 @@
+
+/*页面的背景*/
+html {
+    font-family:Helvetica, Arial, sans-serif;
+    background-color:gray;
+    margin:0;
+    padding:0;
+}
+
+/*通用的设置*/
+li,p{
+    margin:0;
+    padding:0;
+    line-height:1.5;
+}
+
+ul,ol,dl{
+    margin:0;
+    padding:0;
+}
+/*整个body的配置*/
+body {
+    width:80%;
+    font-size:20px;
+    padding:0;
+    margin:0 auto;
+    background-color:snow;
+}
+
+/*简历主标题*/
+
+h1 {
+    text-align:center;
+    margin:0;
+}
+
+/*简历副标题*/
+
+h2 {
+    color:lightblue;
+    text-decoration:underline;
+    font-style:italic;
+}
+
+/*统一将列表项的前面加图案*/
+ul,ol{
+    list-style-type:none;
+}
+
+li{
+    padding-left:25px;
+    background:url(../image/check.png) no-repeat left top;
+    background-size:25px 25px;
+}
+
