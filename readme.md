@@ -12,3 +12,4 @@
 - [day02](https://ztyzz.github.io/IFE2018/1/day02/resume.html)
 - [day03](https://ztyzz.github.io/IFE2018/1/day03/resume.html)
 - [day04](https://ztyzz.github.io/IFE2018/1/day04/resume.html)
+- [day05&06](https://ztyzz.github.io/IFE2018/1/day05&day06/resume.html)
