@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" lang="ZN-ch">
+    <title>我的简历</title>
+    <link id="css" rel="stylesheet" href="css/style_3.css">
+    <script>
+        function changeCss(a) {
+            var css = document.getElementById("css");
+            if (a == 1) {
+                css.setAttribute("href", "css/style_2.css");
+            }
+            if (a == 2) {
+                css.setAttribute("href", "css/style_3.css")
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <div>
+        <input type="button" onclick="changeCss(1)" value="样式1">
+        <input type="button" onclick="changeCss(2)" value="样式2">
+    </div>
+    <div class="title">
+        <h1>简历</h1>
+    </div>
+    <div class="data">
+        <div class="personal-data">
+            <h2>基本信息</h2>
+            <span>
+                <strong>姓名</strong>&nbsp张三&nbsp&nbsp&nbsp&nbsp
+                <strong>性别</strong>&nbsp男&nbsp&nbsp&nbsp
+                <strong>应聘职位</strong>&nbspWeb前端工程师</span>
+        </div>
+
+        <div class="contact">
+            <h2>联系方式</h2>
+            <span>
+                <strong>手机</strong>&nbsp12312341234&nbsp&nbsp&nbsp&nbsp
+                <strong>Email</strong>
+                &nbsp
+                <a href="">joinefe@baidu.com</a>
+            </span>
+        </div>
+
+
+        <div class="ability">
+            <h2>能力描述</h2>
+            <strong>技术能力</strong>
+            <p>熟练掌握HTML，CSS，JavaScript</p>
+            <strong>综合能力</strong>
+            <p>良好的沟通，主动积极，努力勤奋</p>
+        </div>
+
+        <div class="education">
+            <h2>教育经历</h2>
+            <strong>本科</strong>
+            <p>百度前端技术学院小薇学院</p>
+            <strong>研究生</strong>
+            <p>百度前端技术学院大斌学院</p>
+
+        </div>
+        <div class="project">
+            <h2>项目经历</h2>
+            <strong>小度小度</strong>
+            <p>作为前端工程师角色参与了ABC组件的开发</p>
+            <strong>SAN Doc</strong>
+            <p>作为文档工程师参与了SAN Doc的编写</p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

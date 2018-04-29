@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* 标题 */
+
+.title {
+    padding:15px;
+
+    font-size: 12px;
+    color: #fff;
+    background-color: #848484;
+}
+
+h2 {
+    float: left;
+    padding: 35px 20px;
+    margin-right: 10px;
+
+    font-size: 20px;
+    background-color: #d6d6d6;
+    border-bottom:2px solid #fff;
+}
+
+/* clearfix */
+.personal-data:after {
+    content: ".";
+
+    display: block;
+    height: 0;
+
+    visibility: hidden;
+    clear: both;
+}
+
+.contact:after {
+    content: ".";
+
+    display: block;
+    height: 0;
+
+    visibility: hidden;
+    clear: both;
+}
+
+.ability:after {
+    content: ".";
+
+    display: block;
+    height: 0;
+
+    visibility: hidden;
+    clear: both;
+}
+
+.education:after {
+    content: ".";
+
+    display: block;
+    height: 0;
+
+    visibility: hidden;
+    clear: both;
+}
+
+.project:after {
+    content: ".";
+
+    display: block;
+    height: 0;
+
+    visibility: hidden;
+    clear: both;
+}
+
+/*边框效果*/
+.personal-data {
+    border: 1px solid #d6d6d6;
+}
+
+.contact {
+    border: 1px solid #d6d6d6;
+}
+
+.ability {
+    border: 1px solid #d6d6d6;
+}
+
+.education {
+    border: 1px solid #d6d6d6;
+}
+
+.project {
+    border: 1px solid #d6d6d6
+
+}
+

@@ -1,0 +1,31 @@
+
+.title {
+    float: left;
+    
+    width: 15%;
+    height: 900px;
+    text-align: center;
+
+    background-color: #65a4fa;
+}
+.data {
+    float: left;
+    
+    width: 75%;
+    height: 900px;
+    margin-left: 5%;
+
+    background-color: #fff;
+}
+
+/* clearfix*/
+body:afer {
+    content: ".";
+
+    display: block;
+    height: 0;
+    visibility: hidden;
+    
+    clear:both;
+}
+
