@@ -14,6 +14,9 @@
             if (a == 2) {
                 css.setAttribute("href", "css/style_3.css")
             }
+            if (a==0) {
+                css.setAttribute("href","css/style_1.css");
+            }
         }
     </script>
 
@@ -21,8 +24,9 @@
 
 <body>
     <div>
-        <input type="button" onclick="changeCss(1)" value="样式1">
-        <input type="button" onclick="changeCss(2)" value="样式2">
+        <input type="button" onclick="changeCss(0)" value="样式1">
+        <input type="button" onclick="changeCss(1)" value="样式2">
+        <input type="button" onclick="changeCss(2)" value="样式3">
     </div>
     <div class="title">
         <h1>简历</h1>
@@ -43,6 +47,10 @@
                 <strong>Email</strong>
                 &nbsp
                 <a href="">joinefe@baidu.com</a>
+                &nbsp&nbsp&nbsp&nbsp
+                <strong>个人主页</strong>
+                &nbsp
+                <a href="https://github.com/ZTYZZ">Github</a>
             </span>
         </div>
 
