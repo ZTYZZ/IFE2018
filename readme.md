@@ -5,3 +5,10 @@
 相关总结,文章放在这里[点击跳转](https://github.com/ZTYZZ/blog/tree/master/web-learn)
 
 坚持下去!!!
+
+# 任务demo预览
+
+## 零基础学院
+- [day02](https://ztyzz.github.io/IFE2018/1/day02/resume.html)
+- [day03](https://ztyzz.github.io/IFE2018/1/day03/resume.html)
+- [day04](https://ztyzz.github.io/IFE2018/1/day04/resume.html)
