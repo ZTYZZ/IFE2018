@@ -5,32 +5,28 @@
     <meta charset="utf-8">
     <title>测试页面</title>
     <style>
-
-
-        .default {
-            background-clip: border-box;
+        p {
+            width: 400px;
+            margin: 0 auto;
         }
 
-        .padding-box {
-            background-clip: padding-box;
+        p::first-line {
+            text-transform: uppercase;
         }
 
-        .content-box {
-            background-clip: content-box;
-        }
-        .test {
-            height:50px;
-            width:50px;
-            border-style:solid dotted;
+        p::first-letter {
+            font-size: 3em;
+            background: red;
+            float: left;
+            padding:2px;
+            margin-right: 4px;
         }
     </style>
 </head>
 
 <body>
-    <div class="default"></div>
-    <div class="padding-box"></div>
-    <div class="content-box"></div>
-    <div class="test"></div>
+    <p>This is my very important paragraph. I am a distinguished gentleman of such renown that my paragraph needs to be styled
+        in a manner befitting my majesty. Bow before my splendour, dear students, and go forth and learn CSS!</p>
 </body>
 
 </html>
