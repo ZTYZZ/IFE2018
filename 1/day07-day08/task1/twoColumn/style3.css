@@ -1,0 +1,38 @@
+/*使用position和float*/
+.container {
+    font-size: 0;
+    overflow: auto;
+}
+
+.container .left{
+    float: left;
+    
+    box-sizing: content-box;
+    width: 30%;
+    height: 100px;
+
+    font-size: 14px;
+
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.container .middle {
+    position: absolute;
+
+    top: -1000px;
+}
+
+.container .right {
+    position: absolute;
+    left: 30%;
+    
+    box-sizing: border-box;
+    width: 70%;
+    height: 200px;
+    
+    font-size: 14px;
+    border: 1px solid black;
+    background-color: lightblue
+
+}

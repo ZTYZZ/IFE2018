@@ -1,0 +1,26 @@
+/*用双inline-block实现*/
+.container {
+    font-size: 0;
+}
+
+.container .left ,.container .right {
+    display: inline-block;
+    vertical-align: top;
+
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    font-size: 14px;
+
+    background-color: lightblue;
+    border: 1px solid black;
+}
+.container .middle {
+    position: absolute;
+    top: -1000px;
+}
+
+.container .right {
+    width: calc(100% - 100px);/*运算符前后都需要保留一个空格*/
+    height: 200px;
+}
