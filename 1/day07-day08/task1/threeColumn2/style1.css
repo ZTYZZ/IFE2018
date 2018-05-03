@@ -1,0 +1,28 @@
+/*使用float*/
+
+.container {
+    overflow: auto;
+}
+
+.container .left,.container .right, .container .middle {
+    float: left;
+    box-sizing: border-box;
+
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.container .left {
+    width: 100px;
+    height: 200px;
+}
+
+.container .middle {
+    width: 100px;
+    height: 200px;
+}
+
+.container .right {
+    width: calc(100% - 200px);
+    height: 200px;
+}
