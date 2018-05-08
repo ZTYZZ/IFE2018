@@ -14,3 +14,5 @@
 - [day04](https://ztyzz.github.io/IFE2018/1/day04/resume.html)
 - [day05&06](https://ztyzz.github.io/IFE2018/1/day05&day06/resume.html)
 - [day07-day08](https://ztyzz.github.io/IFE2018/1/day07-day08/task2/index.html) (PS: 任务1中的一些多栏设计，直接找到代码中的task1目录)
+- 由于要做毕设，所以进度没赶上，加油吧，慢慢跟！！
+- [day16](https://ztyzz.github.io/IFE2018/1/day16/task02.html)
