@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>九九乘法表的打印</title>
+    </head>
+    <script>
+    result = "";
+    for(var i = 1;i <= 9;i++) {
+        for(var j = 1;j<=i;j++) {
+            result += j + "*" + i + "="+(i * j) + "\t";
+        }
+        result += "\n";
+    }
+    console.log(result);
+    </script>
+</html>

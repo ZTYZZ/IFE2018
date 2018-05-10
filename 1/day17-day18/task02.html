@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8">    
+    <meta charset="UTF-8">
     <title>IFE ECMAScript</title>
 </head>
-<body>        
-    <input id="dec-number" type="number" placeholder="输入一个十进制非负整数">
-    <button id="trans-btn">转化为二进制</button>
+
+<body>
+    <input id="dec-number" type="number" value = "0" placeholder="输入一个十进制非负整数">
+    <button id="trans-btn" click = "dec2bin(parseFloat(document.getElementById("dec-number").value));">转化为二进制</button>
     <p id="result">运算结果</p>
     <script>
+        var result=[];
+        function dec2bin(decNumber) {
+            // 在这里实现你的转化方法，注意需要判断输入必须为一个非负整数
+            if (decNumber === 0) {
+                result.unshift(0);
+            }
+            else if (decNumber < 0 || decNumber % 1 !== 0) {
+                alert("你输入的数字不符，请输入一个非负整数");
+            }
 
-function dec2bin(decNumber) {
-    // 在这里实现你的转化方法，注意需要判断输入必须为一个非负整数
-}
+            else {
+                /*转换算法*/
+                while (decNumber == 0) {
+                    result.unshift(decNumber % 2);
+                    decNumber /= 2;
+                }
+               // result = Number(result.toString());
+            }
+            
 
-// 实现当点击转化按钮时，将输入的十进制数字转化为二进制，并显示在result的p标签内
-// Some coding
+            document.getElementById("result").innerHTML = "二进制转换为：" + result;
+        }
+
+        // 实现当点击转化按钮时，将输入的十进制数字转化为二进制，并显示在result的p标签内
+        // Some coding
+        var decNumber = parseFloat(document.getElementById("dec-number").value);
+        document.getElementById("trans-btn").onclick = "dec2bin(3)";
+        console.log("结束了");
 
     </script>
 </body>
+
 </html>
