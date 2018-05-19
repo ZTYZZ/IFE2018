@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>IFE ECMAScript</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="news-top" class="section">
+            <h3>Some title</h3>
+            <div class="content">
+                <ul>
+                    <li>
+                        <span>HTML</span>
+                        <a href="">Some Link1</a>
+                    </li>
+                    <li>
+                        <span>JS</span>
+                        <a class="active" href="">Some Link2</a>
+                    </li>
+                    <li>
+                        <span>CSS</span>
+                        <a href="">Some Link3</a>
+                    </li>
+                    <li>
+                        <span>JS</span>
+                        <a href="">Some Link4</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="">
+            <p class="">Some Text</p>
+        </div>
+        <div id="news-normal" class="section">
+            <h3>Some title</h3>
+            <div class="content">
+                <ul>
+                    <li>
+                        <span>HTML</span>
+                        <a href="">Some Link1</a>
+                    </li>
+                    <li>
+                        <span>HTML</span>
+                        <a href="">Some Link2</a>
+                    </li>
+                    <li>
+                        <span>JS</span>
+                        <a class="active" href="#">Some Link3</a>
+                    </li>
+                    <li>
+                        <span>CSS</span>
+                        <a href="">Some Link4</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="">
+            <p class="">Some Text</p>
+        </div>
+    </div>
+    <script>
+
+        function getAllListItem() {
+            // //第一种方式
+            // // 返回页面中所有li标签
+            // var lis = document.getElementsByTagName("li");
+
+
+            // 第二种方式
+            var lis = document.querySelectorAll("li");
+            console.log(lis);
+
+
+
+        }
+
+        function findAllHtmlSpanInOneSection(sectionId) {
+            // // 第一种方式
+
+            // // 返回某个section下所有span中内容为HTML的span标签
+            // var section = document.getElementById(sectionId)//获取所有的seciton
+            // console.log(section);
+            // var spans = section.getElementsByTagName("span");
+            // for(var i=0;i<spans.length;i++) {
+            //     if(spans[i].innerHTML==="HTML") {
+            //         console.log(spans[i]);
+            //     }
+            // }
+
+            // 第二种方式
+            var spans = document.querySelectorAll("#" + sectionId + " span");
+            for (var i = 0; i < spans.length; i++) {
+                if (spans[i].innerHTML === "HTML") {
+                    console.log(spans[i]);
+                }
+            }
+        }
+
+        function findListItem(sectionId, spanCont) {
+            // 返回某个section下，所有所包含span内容为spanCont的LI标签
+            // 第一种方式
+            // var section = document.getElementById(sectionId);//返回某一个的section
+            // console.log(section);
+
+            // var spans = section.getElementsByTagName("span");
+            // for (var i = 0; i < spans.length; i++) {
+            //     if (spans[i].innerHTML === spanCont) {
+            //         console.log(spans[i].parentNode);
+            //     }
+            // }
+
+            //第二种方式
+            var spans = document.querySelectorAll("#" + sectionId + " span");
+            for (var i = 0; i < spans.length; i++) {
+                if (spans[i].innerHTML === spanCont) {
+                    console.log(spans[i].parentNode);
+                }
+            }
+        }
+
+        function getActiveLinkContent(sectionId) {
+            // 返回某个section下，class为active的链接中包含的文字内容
+            // ××× 注意innerHTML的用法
+
+            // 第一种方式
+            // var section = document.getElementById(sectionId);
+            // var anchor = section.getElementsByClassName("active");
+            // console.log(anchor);
+
+
+            // 第二种方式
+            var active = document.querySelectorAll("#" + sectionId + " a.active");//注意返回的是一个对象，它的文本内容在子节点列表中。
+            console.log(active[0].innerHTML);
+        }
+        getAllListItem();
+        findAllHtmlSpanInOneSection("news-normal");
+        findListItem("news-normal", "HTML");
+        getActiveLinkContent("news-normal");
+    </script>
+</body>
+
+</html>
