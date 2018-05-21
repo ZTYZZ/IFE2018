@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div onmouseup="mUp(this)" onmousedown="mDown(this)" onclick="ck(this)" style="background-color:green;color:#ffffff;width:90px;height:20px;padding:40px;font-size:12px;">请点击这里</div>
+
+<script>
+function mDown(obj)
+{
+obj.style.backgroundColor="#1ec5e5";
+obj.innerHTML="请释放鼠标按钮";
+console.log("mouseup()");
+}
+
+function mUp(obj)
+{
+obj.style.backgroundColor="green";
+obj.innerHTML="请按下鼠标按钮";
+console.log("mouseup()")
+}
+function ck(obj) {
+obj.style.backgroundColor="blue";
+obj.innerHTML="shabi";
+console.log("click()")
+}
+</script>
+
+</body>
+</html>
