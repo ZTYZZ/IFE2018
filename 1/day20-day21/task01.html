@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ife任务1</title>
+</head>
+
+<body>
+    <input id="name" type="text">
+    <button id="submit-btn">Submit</button>
+    <script>
+        var submit = document.getElementById("submit-btn");
+        submit.onclick = function () {
+            console.log("id为name的值为：" + document.getElementById("name").value);
+        }
+        var input = document.getElementById("name");
+        //添加监听器
+        /**
+        * 点击回车触发的事件
+        */
+        input.addEventListener("keydown",function () {
+            if (event.keyCode == "13") {//keyCode=13是回车键；数字不同代表监听的按键不同
+                console.log(document.getElementById("name").value);
+            }
+        });
+        /*
+        添加监听器，点击ESC，清除文本内容
+        */
+        input.addEventListener("keydown",function() {
+            if(event.keyCode=="27") {
+                input.value="";
+            }
+        })
+    </script>
+
+</body>
+
+</html>
