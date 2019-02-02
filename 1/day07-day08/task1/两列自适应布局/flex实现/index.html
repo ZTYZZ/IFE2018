@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>左侧30%，右侧70%宽度,flex实现</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+        #header {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+
+        #wrap {
+            display: flex;
+            align-items: flex-start;/*由于子元素均设置了宽度，所以也可以不用加这一属性*/
+        }
+
+        #main {
+            flex: 1 1 auto;
+            width: 30%;
+            height: 500px;
+            background-color: #66BB33;
+        }
+
+        #sub {
+            flex: 1 1 auto;
+            width: 70%;
+            height: 1000px;
+            background-color: #66BB33;
+        }
+
+        #footer {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="wrap">
+        <div id="main"></div>
+        <div id="sub"></div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>+margin+负边距实现</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+        #header {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+
+        #wrap {
+            overflow: hidden;
+        }
+        #main {
+            float: left;/*一旦设置了float就将块级元素流体特性取消，需要设置width*/
+            width: 100%;
+        }
+        #main .inner-main {
+            margin: 0 100px;
+            height: 1000px;
+            background-color: #66BB33;
+        }
+
+        #sub {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: #65a4fa;
+            margin-left: -100%;
+        }
+        #extra {
+            width: 100px;
+            height: 100px;
+            margin-left: -100px;
+            background-color: #65a4fa;
+            float: left;
+        }
+        #footer {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="wrap">
+        <div id="main">
+            <div class="inner-main"></div>
+        </div>
+        <div id="sub"></div>
+        <div id="extra"></div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>

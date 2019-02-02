@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>float+BFC实现两栏布局</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #header {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+        #footer {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+        #wrap {
+            overflow: hidden;
+        }
+        #main {
+            float: left;
+            width: 30%;
+            height: 500px;
+            background-color: #66BB33;
+        }
+        #sub {
+            overflow: hidden;
+            width: 70%;
+            height: 1000px;
+            background-color: #66BB33;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="wrap">
+        <div id="main"></div>
+        <div id="sub"></div>
+    </div>
+    <div id="footer"></div>
+
+</body>
+</html>

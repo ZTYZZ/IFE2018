@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>左侧30%，右侧70%宽度,float+margin-left实现</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+        #header {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+
+        #wrap {
+            overflow: hidden;/*清除浮动*/
+        }
+
+        #main {
+            float: left;
+            width: 30%;
+            height: 500px;
+            background-color: #66BB33;
+
+        }
+
+        #sub {
+            width: 70%;
+            height: 1000px;
+            background-color: #66BB33;
+            margin-left: 30%;
+        }
+
+        #footer {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="wrap">
+        <div id="main"></div>
+        <div id="sub"></div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>

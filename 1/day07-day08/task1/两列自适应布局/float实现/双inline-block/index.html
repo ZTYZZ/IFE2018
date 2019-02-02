@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>左侧30%，右侧70%宽度,双inline-block实现</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+        #header {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+
+        #wrap {
+            overflow: hidden;/*清除浮动*/
+            font-size: 0;/*清除空格的影响*/
+        }
+
+        #main {
+            display: inline-block;
+            width: 30%;
+            height: 500px;
+            background-color: #66BB33;
+            vertical-align: top;
+            font-size: 10px;/*重新设置字体大小*/
+        }
+
+        #sub {
+            display: inline-block;
+            width: 70%;
+            height: 1000px;
+            background-color: #66BB33;
+            vertical-align: top;
+            font-size: 10px;/*重新设置字体大小*/
+        }
+
+        #footer {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="wrap">
+        <div id="main"></div>
+        <div id="sub"></div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
