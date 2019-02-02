@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>+float实现</title>
+    <style>
+        body {
+            margin: 0;
+
+        }
+        #header {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+
+        #wrap {
+            overflow: hidden;
+        }
+        #main {
+            float: left;
+            width: 100px;
+            height: 1000px;
+            background-color: #66BB33;
+        }
+        #sub {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: #B2DD99;
+
+        }
+        #extra {
+            width: calc(100% - 200px);
+            height: 500px;
+            background-color: #333333;
+            float: left;
+        }
+        #footer {
+            height: 100px;
+            background-color: #65a4fa;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="wrap">
+        <div id="main"></div>
+        <div id="sub"></div>
+        <div id="extra"></div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
