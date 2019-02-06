@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>day9-day10 官网</title>
+    <style>
+        /*消除默认元素样式的影响*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        #header {
+            height: 989px;
+            background: url("images/Background.png") no-repeat;
+            background-size: cover;
+        }
+
+        #header .wrap {
+            width: 972px;
+            margin: 0 auto;
+        }
+
+        #header .text {
+            color: white;
+            text-align: center;
+            padding: 209px 100px 106px 90px;
+        }
+
+        #header .text p:first-child {
+            font-size: 62px;
+            padding-bottom: 83px;
+            line-height: 1;
+        }
+
+        #header .text p:last-child {
+            font-size: 20px;
+            opacity: 0.7;
+        }
+
+        #header .sign-up {
+            color: white;
+            text-align: center;
+            padding: 60px 100px;
+            border: 1px solid rgba(255, 255, 255, .2);
+        }
+
+        #header .sign-up p:first-child {
+            font-size: 16px;
+            margin-bottom: 12px;
+
+        }
+
+        #header .sign-up p:nth-child(2) {
+            opacity: 0.3;
+            font-size: 12px;
+            margin-bottom: 46px;
+        }
+
+        #header .sign-up input {
+            width: 292px;
+            height: 48px;
+            color: white;
+            font-size: 14px;
+            padding-left: 20px;
+            border: 1px solid rgba(255, 255, 255, .2);
+            background-color: rgba(0, 0, 0, 0);
+            margin-right: 20px;
+            box-sizing: border-box;
+        }
+
+        #header .sign-up input.submit {
+            width: 125px;
+            background-color: white;
+            color: black;
+            font-size: 12px;
+            padding: 0;
+            margin-right: 0;
+
+        }
+
+        /*feature 布局*/
+        #feature {
+            height: 711px;
+            text-align: center;
+            background-color: white;
+        }
+
+        #feature .title {
+            width: 662px;
+            margin: 88px auto;
+        }
+
+        #feature .title > p:first-child {
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+
+        #feature .title > p:nth-child(2) {
+            font-size: 42px;
+            margin-bottom: 80px;
+        }
+
+        #feature ul {
+            list-style: none;
+            text-align: left;
+            width: 1054px;
+            margin: 0 auto;
+        }
+
+        #feature ul li {
+            width: 440px;
+            display: inline-block;
+            margin-bottom: 82px;
+            padding-left: 75px;
+            vertical-align: top;
+        }
+
+        #feature ul li p:first-child {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        #feature ul li p:nth-child(2) {
+            font-size: 16px;
+            opacity: 0.7;
+        }
+
+        #feature ul li:nth-child(1) {
+            background: url("images/Iphone-Icon.png") no-repeat 18px 0;
+        }
+
+        #feature ul li:nth-child(2) {
+            background: url("images/Check-Icon.png") no-repeat 2px 0;
+        }
+
+        #feature ul li:nth-child(3) {
+            background: url("images/Settings-Icon.png") no-repeat 0 0;
+        }
+
+        #feature ul li:nth-child(4) {
+            background: url("images/Pencil-Icon.png") no-repeat 0 0;
+        }
+
+        #action {
+            height: 800px;
+            background: url("images/Screen.png") no-repeat;
+            background-size: cover;
+        }
+
+        #action .text {
+            width: 372px;
+            color: white;
+            padding-top: 185px;
+            margin-bottom: 60px;
+            margin-left: 314px;
+        }
+
+        #action .call {
+            width: 509px;
+            margin-left: 314px;
+        }
+
+        #action .text p:first-child {
+            font-size: 42px;
+            margin-bottom: 40px;
+            line-height: 52px;
+        }
+
+        #action .text p:nth-child(2) {
+            font-size: 18px;
+            line-height: 28px;
+            opacity: 0.7;
+        }
+
+        #action .call a {
+            text-decoration: none;
+        }
+
+        #action .call a:first-child {
+            padding: 25px 44px;
+            background-color: white;
+            color: black;
+            font-size: 12px;
+            margin-right: 20px;
+        }
+
+        #action .call a:nth-child(2) {
+            padding: 25px 44px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, .3);
+            color: white;
+            font-size: 12px;
+        }
+
+        #projects {
+            background-color: white;
+
+        }
+
+        #projects .wrap {
+            width: 972px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #projects .title {
+            padding-top: 96px;
+            padding-bottom: 83px;
+            font-size: 42px;
+            line-height: 52px;
+        }
+
+        #projects .logos div {
+            width: 262px;
+            display: inline-block;
+            margin-right: 80px;
+            color: rgba(0,0,0,.7);
+        }
+        #projects .logos img {
+            margin-bottom: 25px;
+        }
+
+        #projects .logos div:last-child {
+             margin-right: 0;
+        }
+    </style>
+</head>
+<div id="header">
+    <div class="wrap">
+        <div class="text">
+            <p>Hello World</p>
+            <p>China is speeding up strategic plan, standards, traffic rules, laws and regulations on accident-incurred
+                liabilities for its smart car industry, Economic Information Daily reported Thursday.</p>
+        </div>
+        <div class="sign-up">
+            <p>CREAT YOUR ACCOUNT</p>
+            <p>It IS ABSOLUTELY FREE</p>
+            <form>
+                <input class="email" type="text" value="denis@getcraftwork.com">
+                <input class="password" type="password" placeholder="Create your password">
+                <input class="submit" type="submit" value="SIGN UP">
+            </form>
+        </div>
+    </div>
+</div>
+<div id="feature">
+    <div class="title">
+        <p>BOATLOADS OF AWESOME</p>
+        <p>READY-made, customizable,HTML landing page sections</p>
+    </div>
+    <ul>
+        <li>
+            <p>Mobile First</p>
+            <p>All modulz are built mobile-first for maximum device compatibility</p>
+        </li>
+        <li>
+            <p>Accessibility</p>
+            <p>Support for IE8,and tablet devices,screenreaders and color blind.</p>
+        </li>
+        <li>
+            <p>Fluid Typography</p>
+            <p>On different screen sizes,fonts automagically scale with the viewport</p>
+        </li>
+        <li>
+            <p>Customization</p>
+            <p>Make any design your own using the Style Editor.Personalize fonts colors,and layourts to create the
+                custom look you want.</p>
+        </li>
+    </ul>
+</div>
+<div id="action">
+    <div class="text">
+        <p>Supportive policies for China's smart car</p>
+        <p>China will come up with its own smart car standards, traffic rules, laws and regulations relating to safety,
+            according to the China Industry Innovation Alliance for the Intelligent and Connected Vehicles.</p>
+
+    </div>
+    <div class="call">
+        <a href="#">CHECK OUT FEATURES</a>
+        <a href="#">TRY PRODUCT FOR FREES</a>
+    </div>
+</div>
+<div id="projects">
+    <div class="wrap">
+        <div class="title">
+            <p>Try Our Awesome Products</p>
+        </div>
+        <div class="logos">
+            <div class="logo1">
+                <img src="images/Singleton.png">
+                <p>Li Jun, a China Academy of Engineering academician and also director of the alliance's experts'
+                    committee, said that China will also launch design guidance for smart cars, smart map architecture
+                    and
+                    standards for test grounds.</p>
+            </div>
+            <div class="logo2">
+                <img src="images/Hero.png">
+                <p>Li said the smart car industry is able to enlarge the current car industry by 1 trillion yuan
+                    ($158.15 billion) and also able to boost fast development in 5G, internet of cars, big data,
+                    artificial intelligence and new-energy vehicles.</p>
+            </div>
+            <div class="logo3">
+                <img src="images/Portland.png">
+                <p>Zhang Junyi, a partner with NIO Capital, said that the smart car is the trend for the car industry
+                    and China's auto sector will usher in a new key development stage with the improvement of
+                    infrastructure, technology, policies and laws.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="team"></div>
+<div id="contact"></div>
+<div id="footer"></div>
+<body>
+
+</body>
+</html>
