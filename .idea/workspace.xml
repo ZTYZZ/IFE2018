@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="311fb6cf-5d82-4688-9c48-458982df1816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1/day9-day10/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/day9-day10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/1/day9-day10/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1/day9-day10/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="278" column="20" selection-start-line="278" selection-start-column="20" selection-end-line="278" selection-end-column="20" />
+            <state relative-caret-position="334">
+              <caret line="396" column="28" lean-forward="true" selection-start-line="396" selection-start-column="28" selection-end-line="396" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -123,11 +122,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="970" />
-    <option name="y" value="106" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="427" />
+    <option name="y" value="-28" />
     <option name="width" value="983" />
-    <option name="height" value="993" />
+    <option name="height" value="929" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -223,19 +222,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549067040987</updated>
-      <workItem from="1549067042543" duration="45774000" />
+      <workItem from="1549067042543" duration="60071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45774000" />
+    <option name="totallyTimeSpent" value="60071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="776" y="85" width="786" height="794" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32933334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16314399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -414,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1/day9-day10/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="278" column="20" selection-start-line="278" selection-start-column="20" selection-end-line="278" selection-end-column="20" />
+        <state relative-caret-position="334">
+          <caret line="396" column="28" lean-forward="true" selection-start-line="396" selection-start-column="28" selection-end-line="396" selection-end-column="28" />
         </state>
       </provider>
     </entry>
