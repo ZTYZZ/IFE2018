@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>九九乘法表的打印</title>
+</head>
+<body>
+    <table id="table" border="1">
+
+    </table>
+</body>
+<script>
+    var result = "";
+    for ( var i = 1; i <= 9; i++) {
+        result += "<tr>"
+        for(var j = 1; j <= i; j++) {
+            result += "<td>";
+            result += j + " * " + i + " = " + i*j + "</td>";
+        }
+        result += "</tr>"
+    }
+    document.getElementById("table").innerHTML = result;
+</script>
+</html>

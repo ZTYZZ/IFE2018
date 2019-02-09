@@ -1,25 +1,65 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <title>任务三:1! 2! PA!</title>
+    <meta charset="UTF-8">
+    <title>IFE ECMAScript</title>
 </head>
-
 <body>
-
-</body>
+<input id="dec-number" type="number" placeholder="输入一个十进制非负整数">
+<input id="bin-bit" type="number" placeholder="输入转化后二进制数字位数">
+<button id="trans-btn">转化为二进制</button>
+<p id="result">运算结果</p>
 <script>
-    var result = "";
-    for (var i = 1; i <= 100; i++) {
-        if (parseInt(i / 10)=== 3|| i % 10 ===3 ||i % 3 === 0) {
-            result += "PA ";
+
+    function dec2bin(decNumber) {
+        // 在这里实现你的转化方法，注意需要判断输入必须为一个非负整数
+        // 这里是上一个任务的实现
+        var result = "";
+        try {
+            if (decNumber < 0) {
+                throw "输入的值不是非负整数";
+            } else {
+                var value = [];
+                if (parseInt(decNumber) === 0) {
+                    value.unshift(0);
+                } else {
+                    while (parseInt(decNumber) !== 0) {
+                        var digit = decNumber % 2;
+                        decNumber = parseInt(decNumber / 2);
+                        value.unshift(digit);
+                    }
+                }
+                for (var i = 0; i < value.length; i++) {
+                    result += value[i];
+                }
+
+            }
+        }
+        catch (err){
+            result = err;
+        }
+        return result;
+    }
+
+    // 实现党点击转化按钮时，将输入的十进制数字转化为二进制，并显示在result的p标签内
+    // 新的需求是，转化显示后的二进制数为bin-bit中输入的数字宽度，例如
+    // dec-number为5，bin-bit为5，则转化后数字为00101
+    // 如果bin-bit小于转化后的二进制本身位数，则使用原本的位数，如dec-number为5，bin-bit为2，依然输出101，但同时在console中报个错
+    // Some coding
+    document.getElementById("trans-btn").onclick = function () {
+        var binBit = document.getElementById("bin-bit").value;
+        var value = dec2bin(document.getElementById("dec-number").value);
+        var result = value;
+        if(binBit >= value.length && value !== "输入的值不是非负整数") {
+            for(var i = 0; i < binBit - value.length;i++) {
+                result = '0' + result;
+            }
         }
         else {
-            result += i+ " ";
+            console.log("输入的位数不符合要求");
         }
+        document.getElementById("result").innerHTML = result;
     }
-    console.log(result);
 </script>
-
+</body>
 </html>
