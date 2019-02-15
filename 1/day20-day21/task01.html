@@ -8,30 +8,29 @@
 
 <body>
     <input id="name" type="text">
-    <button id="submit-btn">Submit</button>
+    <button id="submit-btn" >Submit</button>
     <script>
-        var submit = document.getElementById("submit-btn");
-        submit.onclick = function () {
-            console.log("id为name的值为：" + document.getElementById("name").value);
-        }
+        var submitBtn = document.getElementById("submit-btn");
+        //第一条需求，当点击提交按钮时，输出name的内容。
+        submitBtn.onclick = function() {
+            console.log(document.getElementById("name").value);
+        };
+
+        //第二条需求，当按回车，实现同样的功能
+        // 由于要使用两个监听事件，所以不能使用以上方法，会覆盖，需要使用addEventListener()来进行实现。
         var input = document.getElementById("name");
-        //添加监听器
-        /**
-        * 点击回车触发的事件
-        */
-        input.addEventListener("keydown",function () {
-            if (event.keyCode == "13") {//keyCode=13是回车键；数字不同代表监听的按键不同
-                console.log(document.getElementById("name").value);
+        input.addEventListener("keydown",function(event) {
+            if(event.key === "Enter") {
+                console.log(input.value);
             }
         });
-        /*
-        添加监听器，点击ESC，清除文本内容
-        */
-        input.addEventListener("keydown",function() {
-            if(event.keyCode=="27") {
-                input.value="";
+
+        //第三条需求，当按Esc键的时候，取消所有的字符
+        input.addEventListener("keydown",function(event) {
+            if(event.key === "Escape") {
+                input.value = "";
             }
-        })
+        });
     </script>
 
 </body>
