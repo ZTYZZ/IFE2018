@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ECMA Script</title>
+
+</head>
+<body>
+<div id="fade-obj" style="width:300px;height:300px;background:#000"></div>
+<button id="fade-btn">淡出</button>
+
+</body>
+<script>
+
+    var btn = document.querySelector("#fade-btn");
+    var div = document.querySelector("#fade-obj");
+
+
+    btn.onclick = function decreace() {
+        while(Number(getComputedStyle(div).opacity) > 0) {
+        }
+
+    };
+</script>
+</html>
