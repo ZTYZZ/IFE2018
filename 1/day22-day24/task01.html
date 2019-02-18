@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ECMA Script</title>
+</head>
+<body>
+<div>
+    <label>Number A:<input id="radio-a" type="radio" name="math-obj" value="a"></label><input id="num-a" type="text">
+    <label>Number B:<input id="radio-b" type="radio" name="math-obj" value="b"></label><input id="num-b" type="text">
+</div>
+<div>
+    <button>判断当前选中的输入框输入内容是否为数字</button>
+    <button>把 A 四舍五入为 B 个小数位数的数字</button>
+    <button>当前选中数字的绝对值</button>
+    <button>对当前选中的数字进行上舍入</button>
+    <button>对当前选中的数字进行下舍入</button>
+    <button>把当前选中的数字四舍五入为最接近的整数</button>
+    <button>返回 A 和 B 中的最高值</button>
+    <button>返回 A 和 B 中的最低值</button>
+</div>
+<p id="result"></p>
+
+<script>
+    var radioA = document.getElementById("radio-a");
+    var radioB = document.getElementById("radio-b");
+    var btns = document.querySelectorAll("button");
+    var input1 = document.querySelector("#num-a");
+    var input2 = document.querySelector("#num-b");
+    function isNumber2(number) {
+        if(number === "") {
+            return false;
+        }else if (Number(number)===0 || Number(number)) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
+
+    //为第一个按钮添加事件。
+    btns[0].addEventListener("click", function(){
+        var valueA = input1.value;
+        var valueB = input2.value;
+        if(radioA.checked && isNumber2(valueA)) {
+            alert("您选择的是1框，输入的是数字"+valueA);
+        }else if(radioB.checked && isNumber2(valueB)) {
+            alert("您选择的为2框，输入的是数字" + valueB)
+        }else {
+            alert("您没有输入不是数字，或没有选择一项");
+        }
+
+    } ,false);
+    //为第二个按钮添加事件
+    btns[1].addEventListener("click",function() {
+        var valueA = input1.value,valueB = input2.value,result;
+        if(isNumber2(valueA) && isNumber2(valueB) && valueB>=0) {
+            result = Math.round(valueA*Math.pow(10,valueB))/Math.pow(10,valueB);
+            alert("结果为："+ result);
+        }else {
+            alert("你输入的有误，请重新输入");
+        }
+    },false);
+
+    //为第三个按钮添加事件
+    btns[2].addEventListener("click",function(){
+        var valueA = input1.value,valueB = input2.value;
+        if(radioA.checked && isNumber2(valueA)) {
+            alert(Math.abs(valueA));
+        }else if(radioB.checked && isNumber2(valueB)) {
+            alert(Math.abs(valueB));
+        }else {
+            alert("您输入的有误，或没有选择一项");
+        }
+    },false);
+    //对选中的数字进行上舍入。
+    btns[3].addEventListener("click",function(){
+        var valueA = input1.value,valueB = input2.value;
+        if(radioA.checked && isNumber2(valueA)) {
+            alert(Math.ceil(valueA));
+        }else if(radioB.checked && isNumber2(valueB)) {
+            alert(Math.ceil(valueB));
+        }else {
+            alert("您输入的有误，或没有选择一项");
+        }
+    },false);
+
+    //对选中的数字进行下舍入
+    btns[4].addEventListener("click",function(){
+        var valueA = input1.value,valueB = input2.value;
+        if(radioA.checked && isNumber2(valueA)) {
+            alert(Math.floor(valueA));
+        }else if(radioB.checked && isNumber2(valueB)) {
+            alert(Math.floor(valueB));
+        }else {
+            alert("您输入的有误，或没有选择一项");
+        }
+    },false);
+    //对选中的数字进行四舍五入为最接近的数字
+    btns[5].addEventListener("click",function(){
+        var valueA = input1.value,valueB = input2.value;
+        if(radioA.checked && isNumber2(valueA)) {
+            alert(Math.round(valueA));
+        }else if(radioB.checked && isNumber2(valueB)) {
+            alert(Math.round(valueB));
+        }else {
+            alert("您输入的有误，或没有选择一项");
+        }
+    },false);
+
+    //返回A和B的最高值
+    btns[6].addEventListener("click",function() {
+        var valueA = input1.value,valueB = input2.value,result;
+        if(isNumber2(valueA) && isNumber2(valueB)) {
+            alert(Math.max(valueA,valueB));
+        }else {
+            alert("您输入的有误，或者没有选择一项");
+        }
+    });
+    //返回A和B的最低值
+    btns[7].addEventListener("click",function() {
+        var valueA = input1.value,valueB = input2.value,result;
+        if(isNumber2(valueA) && isNumber2(valueB)) {
+            alert(Math.min(valueA,valueB));
+        }else {
+            alert("您输入的有误，或者没有选择一项");
+        }
+    });
+</script>
+
+</body>
+</html>
