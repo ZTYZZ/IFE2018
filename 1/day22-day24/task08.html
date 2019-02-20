@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ECMA Script</title>
+</head>
+<body>
+<input id="stack-input" type="text">
+<p id="stack-cont">栈内容：apple&lt;-pear</p>
+<button id="push-btn">进栈</button>
+<button id="pop-btn">退栈</button>
+<button id="font-btn">打印栈顶元素内容</button>
+<button id="empty-btn">判断栈是否为空</button>
+
+<script>
+
+    var stack = ["apple", "pear"],
+        stackInput = document.querySelector("#stack-input"),
+        stackCont = document.querySelector("#stack-cont"),
+        pushBtn = document.querySelector("#push-btn"),
+        popBtn = document.querySelector("#pop-btn"),
+        fontBtn = document.querySelector("#font-btn"),
+        emptyBtn = document.querySelector("#empty-btn");
+    pushBtn.addEventListener("click", function () {
+        var content = stackInput.value;
+        var result;
+        if (content !== "") {
+            stack.unshift(content);
+        }
+        result = stack.join("&lt-");
+        stackCont.innerHTML = "栈内容：" + result;
+    }, false);
+
+    popBtn.addEventListener("click", function () {
+        var result;
+        stack.shift();
+        result = stack.join("&lt-");
+        stackCont.innerHTML = "栈内容：" + result;
+    }, false);
+
+    fontBtn.addEventListener("click", function () {
+        alert("栈顶元素为:" + stack[0]);
+    }, false);
+
+    emptyBtn.addEventListener("click", function () {
+        if (stack.length === 0) {
+            alert("栈为空");
+        } else {
+            alert("栈不为空");
+        }
+    }, false);
+</script>
+
+</body>
+</html>
