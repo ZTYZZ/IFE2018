@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ECMA Script</title>
+</head>
+<body>
+<input id="queue-input" type="text">
+<p id="queue-cont">队列内容：apple&lt;-pear</p>
+<button id="in-btn">入队</button>
+<button id="out-btn">出队</button>
+<button id="font-btn">打印队头元素内容</button>
+<button id="empty-btn">判断队列是否为空</button>
+
+<script>
+
+    var queue = ["apple", "pear"],
+        queueInput = document.querySelector("#queue-input"),
+        queueCont = document.querySelector("#queue-cont"),
+        inBtn = document.querySelector("#in-btn"),
+        outBtn = document.querySelector("#out-btn"),
+        fontBtn = document.querySelector("#font-btn"),
+        emptyBtn = document.querySelector("#empty-btn");
+    inBtn.addEventListener("click", function () {
+        var content;
+        if (queueInput.value !== "") {
+            queue.unshift(queueInput.value);
+        }
+        content = queue.join("&lt-");
+        queueCont.innerHTML = "队列内容：" + content;
+    });
+    outBtn.addEventListener("click", function () {
+        var content;
+        queue.pop();
+
+        content = queue.join("&lt-");
+        queueCont.innerHTML = "队列内容：" + content;
+    });
+    fontBtn.addEventListener("click", function () {
+        alert("队头元素为：" + queue[queue.length - 1]);
+    });
+    emptyBtn.addEventListener("click", function () {
+        alert(queue.length === 0);
+    });
+
+</script>
+</body>
+</html>

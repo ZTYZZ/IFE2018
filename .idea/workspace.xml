@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="311fb6cf-5d82-4688-9c48-458982df1816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1/day22-day24/task02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/day22-day24/task04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/day22-day24/task05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/day22-day24/task06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/day22-day24/task07.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,43 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/day20-day21/task01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/day20-day21/task02.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1534">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/day20-day21/task03.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#4;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#5;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#6;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#7;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/day20-day21/task04.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,11 +67,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/day22-day24/task04.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
-              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+              <caret line="151" column="7" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1/day22-day24/task05.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <folding>
+                <element signature="e#180#184#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1/day22-day24/task06.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <folding>
+                <element signature="e#179#183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1/day22-day24/task07.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+              <folding>
+                <element signature="e#179#183#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,6 +188,9 @@
         <option value="$PROJECT_DIR$/1/day22-day24/task01.html" />
         <option value="$PROJECT_DIR$/1/day22-day24/task02,html.html" />
         <option value="$PROJECT_DIR$/1/day22-day24/task04.html" />
+        <option value="$PROJECT_DIR$/1/day22-day24/task07.html" />
+        <option value="$PROJECT_DIR$/1/day22-day24/task06.html" />
+        <option value="$PROJECT_DIR$/1/day22-day24/task05.html" />
       </list>
     </option>
   </component>
@@ -198,8 +201,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="432" />
-    <option name="y" value="88" />
+    <option name="x" value="200" />
+    <option name="y" value="-9" />
     <option name="width" value="1225" />
     <option name="height" value="930" />
   </component>
@@ -320,23 +323,23 @@
       <workItem from="1550233833715" duration="34000" />
       <workItem from="1550234369159" duration="1691000" />
       <workItem from="1550276974194" duration="11898000" />
-      <workItem from="1550360699369" duration="47220000" />
+      <workItem from="1550360699369" duration="64631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222282000" />
+    <option name="totallyTimeSpent" value="239693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32496697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32496697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37818697" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37818697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,27 +376,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/两列自适应布局/absolute+margin-left/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/两列自适应布局/float实现/float+BFC实现/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/两列自适应布局/float实现/双float实现/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1014">
@@ -705,7 +687,37 @@
     <entry file="file://$PROJECT_DIR$/1/day22-day24/task04.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+          <caret line="151" column="7" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day22-day24/task06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#179#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day22-day24/task05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#180#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day22-day24/task07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="e#179#183#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
