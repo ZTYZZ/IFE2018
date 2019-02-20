@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="311fb6cf-5d82-4688-9c48-458982df1816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1/day22-day24/task08.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/day22-day24/task09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/day22-day24/task10.html.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -92,20 +91,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/day22-day24/task09.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+            <state relative-caret-position="-431">
+              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/day17-day18/task03.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1/day22-day24/task10.html.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1664">
-              <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+            <state relative-caret-position="303">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -182,6 +181,7 @@
         <option value="$PROJECT_DIR$/1/day22-day24/task05.html" />
         <option value="$PROJECT_DIR$/1/day22-day24/task08.html" />
         <option value="$PROJECT_DIR$/1/day22-day24/task09.js" />
+        <option value="$PROJECT_DIR$/1/day22-day24/task10.html.js" />
       </list>
     </option>
   </component>
@@ -191,9 +191,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="191" />
-    <option name="y" value="-14" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-133" />
+    <option name="y" value="21" />
     <option name="width" value="1284" />
     <option name="height" value="1038" />
   </component>
@@ -288,8 +288,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.task09.js">
+  <component name="RunManager" selected="Node.js.task10.html.js">
     <configuration name="task09.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day22-day24/task09.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="task10.html.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day22-day24/task10.html.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day17-day18/test.js" working-dir="$PROJECT_DIR$">
@@ -297,6 +300,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.task10.html.js" />
         <item itemvalue="Node.js.task09.js" />
         <item itemvalue="Node.js.test.js" />
       </list>
@@ -318,23 +322,23 @@
       <workItem from="1550233833715" duration="34000" />
       <workItem from="1550234369159" duration="1691000" />
       <workItem from="1550276974194" duration="11898000" />
-      <workItem from="1550360699369" duration="66579000" />
+      <workItem from="1550360699369" duration="75827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241641000" />
+    <option name="totallyTimeSpent" value="250889000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-106" y="17" width="1027" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.01981506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15640767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37818697" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38252148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,14 +374,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/1/day22-day24/task10.html.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/两列自适应布局/flex实现/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/三栏固比固布局/padding+负边距实现/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -714,8 +722,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1/day22-day24/task09.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+        <state relative-caret-position="-431">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day22-day24/task10.html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
     </entry>
