@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="311fb6cf-5d82-4688-9c48-458982df1816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1/day22-day24/task10.html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/day22-day24/task11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/day25-27/task01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/day25-27/task02.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/day22-day24/task10.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/1/day22-day24/task10.html.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,33 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/day22-day24/task01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/day22-day24/task02.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="143" selection-start-line="143" selection-end-line="143" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/day22-day24/task04.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="151" column="7" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/day22-day24/task05.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,20 +76,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/day22-day24/task10.html.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/day17-day18/resume.html">
+        <entry file="file://$PROJECT_DIR$/1/day22-day24/task11.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2236">
-              <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+            <state relative-caret-position="77">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1/day25-27/task01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1/day25-27/task02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -123,8 +117,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -182,6 +176,11 @@
         <option value="$PROJECT_DIR$/1/day22-day24/task08.html" />
         <option value="$PROJECT_DIR$/1/day22-day24/task09.js" />
         <option value="$PROJECT_DIR$/1/day22-day24/task10.html.js" />
+        <option value="$PROJECT_DIR$/1/day22-day24/task11.jd.js" />
+        <option value="$PROJECT_DIR$/1/day22-day24/task11.js" />
+        <option value="$PROJECT_DIR$/1/day25-27/task01.js" />
+        <option value="$PROJECT_DIR$/1/day25-27/task02.js" />
+        <option value="$PROJECT_DIR$/1/day25-27/task02.html" />
       </list>
     </option>
   </component>
@@ -192,8 +191,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-133" />
-    <option name="y" value="21" />
+    <option name="x" value="542" />
+    <option name="y" value="75" />
     <option name="width" value="1284" />
     <option name="height" value="1038" />
   </component>
@@ -246,6 +245,12 @@
               <item name="1" type="462c0819:PsiDirectoryNode" />
               <item name="day22-day24" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="IFE2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IFE2018" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+              <item name="day25-27" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -288,21 +293,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.task10.html.js">
+  <component name="RunManager" selected="Node.js.task02.js">
+    <configuration name="task01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day25-27/task01.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="task02.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day25-27/task02.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="task09.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day22-day24/task09.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="task10.html.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day22-day24/task10.html.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day17-day18/test.js" working-dir="$PROJECT_DIR$">
+    <configuration name="task11.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day22-day24/task11.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.task02.js" />
+        <item itemvalue="Node.js.task01.js" />
+        <item itemvalue="Node.js.task11.js" />
         <item itemvalue="Node.js.task10.html.js" />
         <item itemvalue="Node.js.task09.js" />
-        <item itemvalue="Node.js.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -322,23 +335,23 @@
       <workItem from="1550233833715" duration="34000" />
       <workItem from="1550234369159" duration="1691000" />
       <workItem from="1550276974194" duration="11898000" />
-      <workItem from="1550360699369" duration="75827000" />
+      <workItem from="1550360699369" duration="84617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250889000" />
+    <option name="totallyTimeSpent" value="259679000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-106" y="17" width="1027" height="830" extended-state="0" />
+    <frame x="434" y="60" width="1027" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15640767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4036327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38252148" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38252148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,32 +399,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/三栏固比固布局/padding+负边距实现/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/twoColumn3/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/两列自适应布局/float实现/float+margin-left/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/三栏固固比布局/三float实现/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/三栏固固比布局/float+ margin-left实现/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -729,8 +716,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1/day22-day24/task10.html.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day22-day24/task11.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day25-27/task01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day25-27/task02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day25-27/task02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>

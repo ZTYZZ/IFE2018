@@ -29,20 +29,3 @@ for(var i in scoreObject) {
 }
 
 console.log(arr);
-
-//test
-var arr = ["hello","my","name","is","Peppa Pig"];
-for(var item of arr) {
-    console.log(item);
-}
-
-var book = {
-    name: "hello",
-    id: "2",
-    author: "ztyzz",
-    time: "2018.2.30"
-
-};
-for(var key of Object.keys(book)) {
-    console.log(book[key]);
-}
