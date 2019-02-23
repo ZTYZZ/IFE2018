@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+            width: 200px;
+            height: 30px;
+            font-size: 15px;
+            line-height: 30px;
+            border: 1px solid aqua;
+        }
+
+        #email-input {
+            width: 200px;
+            height: 30px;
+            font-size: 15px;
+        }
+
+        #email-sug-wrapper {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <input id="email-input" type="text">
+    <ul id="email-sug-wrapper" class="email-sug">
+    </ul>
+</div>
+
+<script>
+
+    var input = document.querySelector("#email-input");
+    var ul = document.querySelector("#email-sug-wrapper")
+    // 邮箱后缀List参考
+    var postfixList = ['163.com', 'gmail.com', '126.com', 'qq.com', '263.net'];
+    input.addEventListener("input", function () {
+        clearLi();
+        addCont();
+        console.log();
+        controlShow();
+    });
+
+    function getInput() {
+        return input.value.trim();
+    }
+
+    function sugCont() {
+        var inputCont = getInput();
+        var foreInput = inputCont, backInput = "";
+        var li = [];
+        var index = inputCont.indexOf('@');
+        if (index >= 0) {
+
+            foreInput = inputCont.slice(0, index);
+            backInput = inputCont.slice(index + 1, inputCont.length);
+
+            for (var i = 0, j = 0; i < postfixList.length; i++) {
+                if (backInput === postfixList[i].slice(0, backInput.length)) {
+                    li[j++] = foreInput + "@" + postfixList[i];
+                }
+
+
+            }
+        } else {
+            for (var i = 0, j = 0; i < postfixList.length; i++) {
+                li[j++] = foreInput + "@" + postfixList[i];
+
+
+            }
+
+        }
+
+        return li;
+    }
+
+    function addCont() {
+        var liCont = sugCont();
+
+        for (var i = 0; i < liCont.length; i++) {
+            var li = document.createElement("li");
+            li.innerHTML = liCont[i];
+            ul.appendChild(li);
+        }
+
+    }
+
+    function clearLi() {
+        if (ul.childElementCount > 0) {
+
+            for (var i = 0, length = ul.childElementCount; i < length; i++) {
+                ul.removeChild(ul.childNodes[i]);
+            }
+        }
+    }
+
+    function controlShow() {
+        if (getInput()) {
+
+            ul.style.display = "block";
+        } else {
+            ul.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>

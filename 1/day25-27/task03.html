@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ECMA Script</title>
+</head>
+<body>
+<p id="result1"></p>
+<p id="result2"></p>
+<script>
+    function checkTime(time) {
+        if (time < 10) {
+            return "0" + time;
+        } else {
+            return time;
+        }
+    }
+
+    function startTime1() {
+        var date = new Date();
+        var result = formatPrint1(date);
+        var p = document.querySelector("#result1");
+        p.innerHTML = result;
+        var i = setTimeout(startTime1, 500);
+
+    }
+    function startTime2() {
+        var date = new Date();
+        var result = formatPrint2(date);
+        var p = document.querySelector("#result2");
+        p.innerHTML = result ;
+        var i = setTimeout(startTime2,500);
+    }
+
+    startTime1();
+    startTime2();
+
+    function formatPrint1(date) {
+        var week = formatWeek1(date);
+        var month = checkTime(date.getMonth() + 1);
+        var year = date.getFullYear();
+        var day = checkTime(date.getDate());
+        var hour = checkTime(date.getHours());
+        var minute = checkTime(date.getMinutes());
+        var second = checkTime(date.getSeconds());
+
+        var time = year + "年" + month + "月" + day + "日" + week + hour + ":" + minute + ":" + second;
+        return time;
+    }
+
+    function formatPrint2(date) {
+        var week = formatWeek2(date);
+        var month = checkTime(date.getMonth() + 1);
+        var year = date.getFullYear();
+        var day = checkTime(date.getDate());
+        var hour = checkTime(date.getHours());
+        var minute = checkTime(date.getMinutes());
+        var second = checkTime(date.getSeconds());
+        var time;
+        if (hour < 12) {
+            time = year + "-" + month + "-" + day + "-" + week + hour + ":" + minute + ":" + second + "AM";
+
+        } else {
+
+            hour -= 12;
+            hour = checkTime(hour);
+            time = year + "-" + month + "-" + day + " " + week + hour + ":" + minute + ":" + second + "PM";
+
+        }
+        return time;
+    }
+
+    function formatWeek1(time) {
+        var week = [];
+        week[0] = "星期日";
+        week[1] = "星期一";
+        week[2] = "星期二";
+        week[3] = "星期三";
+        week[4] = "星期四";
+        week[5] = "星期五";
+        week[6] = "星期六";
+
+        return week[time.getDay()];
+    }
+
+    function formatWeek2(time) {
+        var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+        return week[time.getDay()];
+    }
+
+</script>
+
+</body>
+</html>

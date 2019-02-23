@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="311fb6cf-5d82-4688-9c48-458982df1816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1/day22-day24/task11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/day25-27/task01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1/day25-27/task02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/day25-27/task03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/day25-27/task04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/day28-day30/task01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/day22-day24/task10.html.js" beforeDir="false" afterPath="$PROJECT_DIR$/1/day22-day24/task10.html.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,32 +16,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="IFE2018" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/day22-day24/task05.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-              <folding>
-                <element signature="e#180#184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1/day22-day24/task06.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-              <folding>
-                <element signature="e#179#183#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/day22-day24/task07.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/day22-day24/task10.html.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="500">
               <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
@@ -88,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/day22-day24/task11.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
+            <state relative-caret-position="344">
               <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
@@ -97,17 +75,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/day25-27/task01.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="474">
               <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/day25-27/task02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="-104">
+              <caret line="8" column="12" lean-forward="true" selection-end-line="57" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1/day25-27/task03.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-156">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1/day25-27/task04.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20">
+              <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1/day28-day30/task01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -133,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1/day07-day08/task1/index.html" />
         <option value="$PROJECT_DIR$/1/day07-day08/task1/两列定宽布局/float实现/index.html" />
         <option value="$PROJECT_DIR$/1/day07-day08/task1/两列自适应布局/float实现/index.html" />
         <option value="$PROJECT_DIR$/1/day07-day08/task1/两列自适应布局/float实现/float+BFC实现/index.html" />
@@ -181,6 +185,10 @@
         <option value="$PROJECT_DIR$/1/day25-27/task01.js" />
         <option value="$PROJECT_DIR$/1/day25-27/task02.js" />
         <option value="$PROJECT_DIR$/1/day25-27/task02.html" />
+        <option value="$PROJECT_DIR$/1/day25-27/task03.html" />
+        <option value="$PROJECT_DIR$/1/day25-27/task04.html" />
+        <option value="$PROJECT_DIR$/day28-day30/task01.html" />
+        <option value="$PROJECT_DIR$/1/day28-day30/task01.html" />
       </list>
     </option>
   </component>
@@ -190,9 +198,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="542" />
-    <option name="y" value="75" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="178" />
+    <option name="y" value="35" />
     <option name="width" value="1284" />
     <option name="height" value="1038" />
   </component>
@@ -249,7 +257,7 @@
               <item name="IFE2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="IFE2018" type="462c0819:PsiDirectoryNode" />
               <item name="1" type="462c0819:PsiDirectoryNode" />
-              <item name="day25-27" type="462c0819:PsiDirectoryNode" />
+              <item name="day28-day30" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,19 +274,19 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\IFE2018\1\day20-day21" />
-      <recent name="D:\code\IFE2018\1\day9-day10\images" />
-      <recent name="D:\code\IFE2018\1\day07-day08\task1\两列自适应布局" />
-      <recent name="D:\code\IFE2018\1\day07-day08\task1\两列自适应布局\float实现" />
-      <recent name="D:\code\IFE2018\1\day07-day08\task1\两列自适应布局\flaot实现" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\IFE2018\1\day07-day08\task1\三栏固固比布局" />
       <recent name="D:\code\IFE2018\1\day07-day08\task1\三栏固比固布局" />
       <recent name="D:\code\IFE2018\1\day07-day08\task1\三栏固比固布局\padding+负边距实现" />
       <recent name="D:\code\IFE2018\1\day07-day08\task1\两列自适应布局\float实现" />
       <recent name="D:\code\IFE2018\1\day07-day08\task1\两列自适应布局" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\IFE2018\1" />
+      <recent name="D:\code\IFE2018\1\day20-day21" />
+      <recent name="D:\code\IFE2018\1\day9-day10\images" />
+      <recent name="D:\code\IFE2018\1\day07-day08\task1\两列自适应布局" />
+      <recent name="D:\code\IFE2018\1\day07-day08\task1\两列自适应布局\float实现" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,14 +301,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.task02.js">
+  <component name="RunManager" selected="JavaScript Debug.task01.html">
+    <configuration name="task01.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/IFE2018/1/day28-day30/task01.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="task01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day25-27/task01.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="task02.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day25-27/task02.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="task09.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day22-day24/task09.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="task10.html.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/1/day22-day24/task10.html.js" working-dir="$PROJECT_DIR$">
@@ -311,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.task01.html" />
         <item itemvalue="Node.js.task02.js" />
         <item itemvalue="Node.js.task01.js" />
         <item itemvalue="Node.js.task11.js" />
         <item itemvalue="Node.js.task10.html.js" />
-        <item itemvalue="Node.js.task09.js" />
       </list>
     </recent_temporary>
   </component>
@@ -335,23 +343,23 @@
       <workItem from="1550233833715" duration="34000" />
       <workItem from="1550234369159" duration="1691000" />
       <workItem from="1550276974194" duration="11898000" />
-      <workItem from="1550360699369" duration="84617000" />
+      <workItem from="1550360699369" duration="118778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259679000" />
+    <option name="totallyTimeSpent" value="293840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="434" y="60" width="1027" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4036327" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49886104" visible="true" weight="0.17239101" />
+      <window_info id="Structure" order="1" sideWeight="0.5011389" side_tool="true" weight="0.2642008" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38252148" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37818697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,12 +373,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20211361" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49886104" visible="true" weight="0.2642008" />
+      <window_info id="Structure" order="1" sideWeight="0.5011389" side_tool="true" visible="true" weight="0.2642008" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37818697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,27 +407,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/三栏固固比布局/float+ margin-left实现/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/三栏固比固布局/margin+负边距实现/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1/day07-day08/task2/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1/day07-day08/task1/三栏固固比布局/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -714,27 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1/day22-day24/task10.html.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1/day22-day24/task11.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1/day25-27/task01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1/day25-27/task02.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -742,10 +708,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1/day22-day24/task10.html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day25-27/task03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day25-27/task04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day25-27/task01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day22-day24/task11.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1/day25-27/task02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="-104">
+          <caret line="8" column="12" lean-forward="true" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day28-day30/task01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
         </state>
       </provider>
     </entry>
