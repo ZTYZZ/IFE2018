@@ -18,6 +18,10 @@
             border: 1px solid aqua;
         }
 
+        li:hover {
+            background-color: aqua;
+        }
+
         #email-input {
             width: 200px;
             height: 30px;
@@ -26,6 +30,10 @@
 
         #email-sug-wrapper {
             display: none;
+        }
+
+        .active {
+            background-color: gray;
         }
     </style>
 </head>
@@ -39,18 +47,40 @@
 <script>
 
     var input = document.querySelector("#email-input");
-    var ul = document.querySelector("#email-sug-wrapper")
+    var ul = document.querySelector("#email-sug-wrapper");
+
     // 邮箱后缀List参考
     var postfixList = ['163.com', 'gmail.com', '126.com', 'qq.com', '263.net'];
-    input.addEventListener("input", function () {
-        clearLi();
+    input.addEventListener("keyup", function () {
         addCont();
-        console.log();
         controlShow();
     });
 
+    function reset(position) {
+        var lis = document.querySelectorAll("li");
+        if (lis) {
+            for (var i of lis) {
+
+                i.style.backgroundColor = "white";
+            }
+
+            lis[position].style.backgroundColor = "grey";
+
+        }
+
+
+    }
+
     function getInput() {
-        return input.value.trim();
+        var s = input.value.trim();
+        s = s.replace(/&/g, "&amp;");
+        s = s.replace(/</g, "&lt;");
+        s = s.replace(/>/g, "&gt;");
+        s = s.replace(/ /g, "&nbsp;");
+        s = s.replace(/\'/g, "&apos;");
+        s = s.replace(/\"/g, "&quot;");
+        console.log(s);
+        return s;
     }
 
     function sugCont() {
@@ -58,7 +88,7 @@
         var foreInput = inputCont, backInput = "";
         var li = [];
         var index = inputCont.indexOf('@');
-        if (index >= 0) {
+        if (index !== -1) {
 
             foreInput = inputCont.slice(0, index);
             backInput = inputCont.slice(index + 1, inputCont.length);
@@ -70,35 +100,27 @@
 
 
             }
-        } else {
-            for (var i = 0, j = 0; i < postfixList.length; i++) {
+        }
+        if (li.length === 0) {
+            for (i = 0, j = 0; i < postfixList.length; i++) {
                 li[j++] = foreInput + "@" + postfixList[i];
 
 
             }
-
         }
+
 
         return li;
     }
 
     function addCont() {
         var liCont = sugCont();
+        var li = "";
+        for (i of liCont) {
+            li += `<li>${i}</li>`;
+            ul.innerHTML = li;
 
-        for (var i = 0; i < liCont.length; i++) {
-            var li = document.createElement("li");
-            li.innerHTML = liCont[i];
-            ul.appendChild(li);
-        }
 
-    }
-
-    function clearLi() {
-        if (ul.childElementCount > 0) {
-
-            for (var i = 0, length = ul.childElementCount; i < length; i++) {
-                ul.removeChild(ul.childNodes[i]);
-            }
         }
     }
 
@@ -110,6 +132,37 @@
             ul.style.display = "none";
         }
     }
+
+    //点击事件
+    ul.addEventListener("click", function (event) {
+        var s = event.target.innerHTML;
+
+        s = s.replace(/&amp;/g, "&");
+        s = s.replace(/&lt;/g, "<");
+        s = s.replace(/&gt;/g, ">");
+        s = s.replace(/&nbsp;/g, " ");
+        s = s.replace(/&apos;/g, "'");
+        s = s.replace(/&quot;/g, '"');
+        input.value = s;
+        console.log(s);
+        ul.style.display = "none";
+    });
+    //键盘监听事件
+    var key = 0;
+    input.addEventListener("keydown", function (event) {
+        var lis = document.querySelectorAll("li");
+
+        if (event.key === "ArrowUp") {
+            reset(key);
+            key--;
+
+        } else if (event.key === "ArrowDown") {
+            reset(key);
+            key++;
+        } else if (event.key === "Enter") {
+        }
+        console.log(event.key);
+    });
 </script>
 </body>
 </html>
