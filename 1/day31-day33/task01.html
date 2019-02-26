@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我可以的啊啊啊啊</title>
+</head>
+<body>
+<div id="region-radio-wrapper"></div>
+<div id="product-radio-wrapper"></div>
+<table border="1">
+
+</table>
+</body>
+
+<script>
+    let sourceData = [{
+        product: "手机",
+        region: "华东",
+        sale: [120, 100, 140, 160, 180, 185, 190, 210, 230, 245, 255, 270]
+    }, {
+        product: "手机",
+        region: "华北",
+        sale: [80, 70, 90, 110, 130, 145, 150, 160, 170, 185, 190, 200]
+    }, {
+        product: "手机",
+        region: "华南",
+        sale: [220, 200, 240, 250, 260, 270, 280, 295, 310, 335, 355, 380]
+    }, {
+        product: "笔记本",
+        region: "华东",
+        sale: [50, 60, 80, 110, 30, 20, 70, 30, 420, 30, 20, 20]
+    }, {
+        product: "笔记本",
+        region: "华北",
+        sale: [30, 35, 50, 70, 20, 15, 30, 50, 710, 130, 20, 20]
+    }, {
+        product: "笔记本",
+        region: "华南",
+        sale: [80, 120, 130, 140, 70, 75, 120, 90, 550, 120, 110, 100]
+    }, {
+        product: "智能音箱",
+        region: "华东",
+        sale: [10, 30, 4, 5, 6, 5, 4, 5, 6, 5, 5, 25]
+    }, {
+        product: "智能音箱",
+        region: "华北",
+        sale: [15, 50, 15, 15, 12, 11, 11, 12, 12, 14, 12, 40]
+    }, {
+        product: "智能音箱",
+        region: "华南",
+        sale: [10, 40, 10, 6, 5, 6, 8, 6, 6, 6, 7, 26]
+    }];
+
+    //生成按钮
+    function setCheckBox(element, arr) {
+        var checkBox = `<input type="checkbox" checkbox-type = "all">全选`;
+        var subCheck = "";
+        for (let value of arr) {
+
+            subCheck += `<input type="checkbox">${value.text}`;
+
+        }
+        element.innerHTML = checkBox + subCheck;
+        console.log(element);
+        element.addEventListener("change", function (event) {
+            if (event.target.getAttribute("type") === "checkbox") {
+                if (event.target.getAttribute("checkbox-type") === "all") {
+                    //做全选的逻辑
+                    //当点击全选按钮时，全部元素要进行选择
+                    var child = element.childNodes;
+
+                    for (let radio of child) {
+                        radio.checked = "true";
+                    }
+                } else {
+                    //做子选项的逻辑
+                    //当子选项状态改变时，如果是点击状态，判断是不是最后一个元素被点击，是->全选按钮 否
+                    //取消选中，判断是不是最后一个元素，是->取消默认行为，否
+                    child = element.childNodes;
+                    var count = 0;
+
+                    for (let i of child) {
+                        if (i.checked) {
+                            count++;
+                        }
+                    }
+                }
+            }
+        });
+
+    }
+
+    //生成一组checkBox
+    setCheckBox(document.querySelector("#region-radio-wrapper"), [{
+        value: 1,
+        text: "华东"
+    }, {
+        value: 2,
+        text: "华南"
+    }, {
+        value: 3,
+        text: "华北"
+    }]);
+
+    //再生成一组checkBox
+    setCheckBox(document.querySelector("#product-radio-wrapper"), [{
+        value: 1,
+        text: "手机"
+    }, {
+        value: 2,
+        text: "笔记本"
+    }, {
+        value: 3,
+        text: "智能音箱"
+    }]);
+    // document.querySelector("#region-select").addEventListener("change", function () {
+    //     var data = getData();
+    //     console.log(data);
+    //     setTable(data);
+    // }, false);
+    //
+    // document.querySelector("#product-select").addEventListener("change", function () {
+    //     var data = getData();
+    //     console.log(data);
+    //     setTable(data);
+    // }, false);
+
+    function getData() {
+        var regions = document.querySelectorAll("#region-select input");
+        var products = document.querySelectorAll("#product-select input");
+        var region, product;
+        var newData = [];
+        //选择被选择的按钮
+        for (let i of regions) {
+            if (i.checked) {
+                region = i.id;
+            }
+        }
+
+        if (region === "huanan") {
+            region = "华南";
+        } else if (region === "huabei") {
+            region = "华北";
+        } else if (region === "huadong") {
+            region = "华东";
+        }
+
+        //获取选择的产品
+        for (let i of products) {
+            if (i.checked) {
+                product = i.id;
+            }
+        }
+        if (product === "phone") {
+            product = "手机";
+        } else if (product === "computer") {
+            product = "笔记本";
+        } else if (product === "yinxiang") {
+            product = "智能音箱";
+        }
+
+        console.log(product + region);
+        //从原始数据中获取相关数据。
+        for (var data of sourceData) {
+            if (data.region === region && data.product === product) {
+                newData.push(data);
+            }
+        }
+
+        return newData;
+
+    }
+
+    function setTable(data) {
+        var title = "<tr><td>商品</td><td>地区</td><td>1月</td><td>2月</td><td>3月</td><td>4月</td><td>5月</td><td>6月</td><td>7月</td><td>8月</td><td>9月</td><td>10月</td><td>11月</td><td>12月</td></tr>"
+        for (var item of data) {
+            title += "<tr>";
+            console.log(item.product);
+            title += `<td>${item.product}</td>`;
+            title += `<td>${item.region}</td>`;
+            for (var i of item.sale) {
+                title += `<td>${i}</td>`;
+            }
+            title += "</tr>";
+        }
+        document.querySelector("table").innerHTML = title;
+
+
+    }
+
+
+</script>
+</html>
