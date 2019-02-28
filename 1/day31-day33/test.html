@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+<input type="radio">这是一个单选按钮
+<table>
+    <tr>
+        <th>地区</th>
+        <th>商品</th>
+        <th>1月</th>
+        <th>2月</th>
+        <th>3月</th>
+        <th>4月</th>
+        <th>5月</th>
+        <th>6月</th>
+        <th>7月</th>
+        <th>8月</th>
+        <th>9月</th>
+        <th>10月</th>
+        <th>11月</th>
+        <th>12月</th>
+    </tr><tr><td colspan="2>华南</td><td>手机</td><td>220</td><td>200</td><td>240</td><td>250</td><td>260</td><td>270</td><td>280</td><td>295</td><td>310</td><td>335</td><td>355</td><td>380</td></tr><tr><td>笔记本</td><td>80</td><td>120</td><td>130</td><td>140</td><td>70</td><td>75</td><td>120</td><td>90</td><td>550</td><td>120</td><td>110</td><td>100</td></tr>
+</table>
+<script>
+    var input = document.querySelector("input");
+    input.addEventListener("click", function () {
+        console.log("我在监听内部");
+        console.log("当前的按钮的状态是：" + input.checked);
+        event.preventDefault();
+    }, false);
+</script>
+</body>
+</html>
