@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="311fb6cf-5d82-4688-9c48-458982df1816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1/day31-day33/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/day34-day36/demo1.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/day31-day33/task01.html" beforeDir="false" afterPath="$PROJECT_DIR$/1/day31-day33/task01.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/day31-day33/task01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="303" column="82" selection-start-line="303" selection-start-column="82" selection-end-line="303" selection-end-column="82" />
+            <state relative-caret-position="338">
+              <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
               <folding>
                 <element signature="e#5791#6424#0" />
                 <element signature="e#6544#7799#0" />
@@ -69,6 +68,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1/day34-day36/demo1.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -131,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1/day07-day08/task1/两列自适应布局/float实现/flex实现/index.html" />
         <option value="$PROJECT_DIR$/1/day07-day08/task1/两列自适应布局/flex实现/index.html" />
         <option value="$PROJECT_DIR$/1/day07-day08/task1/三栏固比固布局/padding+负边距实现/index.html" />
         <option value="$PROJECT_DIR$/1/day07-day08/task1/三栏固比固布局/margin+负边距实现/index.html" />
@@ -182,6 +185,7 @@
         <option value="$PROJECT_DIR$/1/day31-day33/test.html" />
         <option value="$PROJECT_DIR$/1/day31-day33/test.js" />
         <option value="$PROJECT_DIR$/1/day31-day33/task01.html" />
+        <option value="$PROJECT_DIR$/1/day34-day36/demo1.svg" />
       </list>
     </option>
   </component>
@@ -192,10 +196,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="421" />
+    <option name="y" value="42" />
     <option name="width" value="1164" />
-    <option name="height" value="1038" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -225,7 +229,7 @@
               <item name="IFE2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="IFE2018" type="462c0819:PsiDirectoryNode" />
               <item name="1" type="462c0819:PsiDirectoryNode" />
-              <item name="day31-day33" type="462c0819:PsiDirectoryNode" />
+              <item name="day34-day36" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,7 +240,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leetcode-of-javascript-solution" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -312,23 +316,23 @@
       <workItem from="1550234369159" duration="1691000" />
       <workItem from="1550276974194" duration="11898000" />
       <workItem from="1550360699369" duration="127769000" />
-      <workItem from="1551053571695" duration="81187000" />
+      <workItem from="1551053571695" duration="90811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384018000" />
+    <option name="totallyTimeSpent" value="393642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49886104" visible="true" weight="0.17239101" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49886104" visible="true" weight="0.29128137" />
       <window_info id="Structure" order="1" sideWeight="0.5011389" side_tool="true" weight="0.2642008" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38243628" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39235127" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,9 +379,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1/day9-day10/images/Portland.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/1/day9-day10/images/Screen.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -727,8 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1/day31-day33/task01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="303" column="82" selection-start-line="303" selection-start-column="82" selection-end-line="303" selection-end-column="82" />
+        <state relative-caret-position="338">
+          <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
           <folding>
             <element signature="e#5791#6424#0" />
             <element signature="e#6544#7799#0" />
@@ -737,6 +738,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/day34-day36/demo1.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
