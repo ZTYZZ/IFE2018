@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas小练习</title>
+    <script>
+        function draw() {
+            var canvas =document.getElementById("canvas");
+            if(canvas.getContext) {
+                var ctx = canvas.getContext("2d");
+                //画一条线
+                ctx.beginPath();
+                ctx.moveTo(20,20);
+                ctx.lineTo(120,20);
+
+                ctx.strokeStyle = "red";
+                ctx.stroke();
+
+                // 画一个矩形
+                ctx.fillStyle = "blue";
+                ctx.fillRect(20,40,100,100);
+
+                //画一个原型
+                ctx.beginPath();
+                ctx.moveTo(20,60);
+                ctx.arc(100,200,50,0,Math.PI*2,true);
+                ctx.fillStyle="pink";
+                ctx.fill();
+
+                //文字
+                ctx.fillStyle="grey";
+                ctx.fillText("hello world!", 20,250);
+                ctx.strokeText("你好啊",20,300)
+            }
+        }
+
+    </script>
+</head>
+<body onload="draw();">
+    <canvas id="canvas" width="200" height="500">
+
+    </canvas>
+</body>
+</html>

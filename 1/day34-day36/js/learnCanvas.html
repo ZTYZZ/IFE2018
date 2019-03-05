@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="draw();">
+    <canvas id="canvas" width="150" height="150">
+    </canvas>
+
+
+    <script>
+        // function draw() {
+        //     var canvas = document.getElementById("canvas");
+        //     if(canvas.getContext) {
+        //         var ctx = canvas.getContext("2d");
+        //         console.log(ctx);
+        //         console.log(canvas);
+        //         ctx.fillRect(25,25,100,100);
+        //         ctx.clearRect(45,45,60,60);
+        //         ctx.strokeRect(50,50,50,50);
+        //     }
+        // }
+
+        // function drawLine() {
+        //     var canvas = document.getElementById("canvas");
+        //     if(canvas.getContext) {
+        //         var ctx = canvas.getContext("2d");
+        //         ctx.beginPath();
+        //         ctx.moveTo(75,50);
+        //         ctx.lineTo(100,75);
+        //         ctx.lineTo(100,25);
+        //         ctx.lineTo(75,50);
+        //         ctx.fill();
+        //     }
+        // }
+        // function drawSmile() {
+        //     var canvas = document.getElementById("canvas");
+        //     var ctx = canvas.getContext("2d");
+        //     ctx.beginPath();
+        //     ctx.arc(75,75,50,0,Math.PI*2,true);//Math.PI为180度
+        //     ctx.moveTo(100,75);
+        //     ctx.arc(75,75,35,0,Math.PI,false);
+        //     ctx.moveTo(65,65);
+        //     ctx.arc(60,65,5,0,Math.PI*2,true);
+        //     ctx.stroke();
+        //     //省略
+        // }
+
+        // path2D使用
+        // function draw() {
+        //     var canvas = document.getElementById("canvas");
+        //     if(canvas.getContext) {
+        //         var ctx = canvas.getContext("2d");
+        //         var rectangle = new Path2D();
+        //         rectangle.rect(10,10,50,50);
+        //         var circle = new Path2D();
+        //         circle.moveTo(125,35);
+        //         circle.arc(100,35,25,0,2*Math.PI)
+        //         ctx.stroke(rectangle);
+        //         ctx.fill(circle);
+        //     }
+        // }
+
+        // 使用svgPath2D
+        // function draw() {
+        //     var canvas = document.getElementById("canvas");
+        //     console.log(canvas.getContext);//返回的是 getContext()函数
+        //     if(canvas.getContext) {
+        //         var ctx = canvas.getContext("2d");
+        //         var p = new Path2D("M10 10 h 80 v 80 h -80 Z");
+        //         ctx.stroke(p);
+        //     }
+        // }
+
+        //
+    </script>
+</body>
+</html>

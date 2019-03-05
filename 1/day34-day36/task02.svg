@@ -1,0 +1,23 @@
+<svg height = "1000" width = "1000" version = "1.1" xmlns = "http://www.w3.org/2000/svg" >
+    <g class = "x-axis" >
+        <line x1 = "0" y1 = "300" x2 = "1200" y2 = "300" stroke = "black" stroke-width = "1" />
+    </g>
+    <g class = "y-axis" >
+    <line x1 = "0" y1 = "0" x2 = "0" y2 = "300" stroke = "black" stroke-width = "1" />
+    </g>
+    <g class = "data" >
+    <rect x = "0" y = "180" width = "20" height = "120" fill = "red" />
+    <rect x = "20" y = "200" width = "20" height = "100" fill = "yellow" />
+    <rect x = "40" y = "160" width = "20" height = "140" fill = "black" />
+    <rect x = "60" y = "140" width = "20" height = "160" fill = "pink" />
+    <rect x = "80" y = "120" width = "20" height = "180" fill = "blue" />
+    <rect x = "100" y = "115" width = "20" height = "185" fill = "grey" />
+    <rect x = "120" y = "110" width = "20" height = "190" fill = "silver" />
+    <rect x = "140" y = "90" width = "20" height = "210" fill = "red" />
+    <rect x = "160" y = "70" width = "20" height = "230" fill = "purple" />
+    <rect x = "180" y = "55" width = "20" height = "245" fill = "yellow" />
+    <rect x = "200" y = "45" width = "20" height = "255" fill = "aqua" />
+    <rect x = "220" y = "30" width = "20" height = "270" fill = "black" />
+    </g>
+
+</svg>
