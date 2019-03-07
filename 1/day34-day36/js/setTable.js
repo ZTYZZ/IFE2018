@@ -139,6 +139,7 @@ function setTable(data) {
     var products = document.querySelectorAll("#product-radio-wrapper input");
     var count1 = numberOfRadio(products);
     var count2 = numberOfRadio(regions);
+    var column = 0;
     //当商品选择了一个，地区选择了多个的时候，商品作为第一列，地区作为第二列，并且把商品这一列的单元格做一个合并，只保留一个商品名称
     if (count1 === 1 && count2 > 1) {
         title += `<tr>
@@ -159,12 +160,12 @@ function setTable(data) {
                        </tr>`;
         for (let item of data) {
             if (item === data[0]) {
-                title += `<tr><td rowspan="${data.length}">${data[0].product}</td><td>${item.region}</td>`;
+                title += `<tr row ="${column++}"><td rowspan="${data.length}">${data[0].product}</td><td>${item.region}</td>`;
                 for (let price of item.sale) {
                     title += `<td>${price}</td>`;
                 }
             } else {
-                title += `<tr><td>${item.region}</td>`;
+                title += `<tr row ="${column++}"><td>${item.region}</td>`;
                 for (let price of item.sale) {
                     title += `<td>${price}</td>`
                 }
@@ -194,12 +195,12 @@ function setTable(data) {
                        </tr>`;
         for (let item of data) {
             if (item === data[0]) {
-                title += `<tr><td rowspan="${data.length}">${data[0].region}</td><td>${item.product}</td>`;
+                title += `<tr row="${column++}"><td rowspan="${data.length}">${data[0].region}</td><td>${item.product}</td>`;
                 for (let price of item.sale) {
                     title += `<td>${price}</td>`;
                 }
             } else {
-                title += `<tr><td>${item.product}</td>`;
+                title += `<tr row ="${column++}""><td>${item.product}</td>`;
                 for (let price of item.sale) {
                     title += `<td>${price}</td>`
                 }
@@ -249,7 +250,7 @@ function setTable(data) {
 
         for (let i = 0;i<data.length;i++) {
             if(data[i] === data[productRecord[data[i].product]]) {
-                title += `<tr><td rowspan="${productLength[data[i].product]}">${data[i].product}</td><td>${data[i].region}</td>`;
+                title += `<tr row="${column++}"><td rowspan="${productLength[data[i].product]}">${data[i].product}</td><td>${data[i].region}</td>`;
                 for(let j of data[i].sale) {
                     title += `<td>${j}</td>`;
                 }
@@ -269,14 +270,41 @@ function setTable(data) {
     else {
         title += `<tr><th>商品</th><th>地区</th><th>1月</th><th>2月</th><th>3月</th><th>4月</th><th>5月</th><th>6月</th><th>7月</th><th>8月</th><th>9月</th><th>10月</th><th>11月</th><th>12月</th></tr>`
         for(let item of data) {
-            title +=`<tr><td>${item.product}</td><td>${item.region}</td>`;
+            title +=`<tr row ="${column++}"><td>${item.product}</td><td>${item.region}</td>`;
             for(let price of item.sale) {
                 title +=`<td>${price}</td>`;
             }
             title += "</tr>";
         }
     }
+    console.log(title);
     document.querySelector("table").innerHTML = title;
 
 }
+
+//为每一行绑定事件
+var table = document.querySelector("table");
+table.addEventListener("mouseover", function(event) {
+    var tr = document.querySelectorAll("tr[row]");
+    var target = event.target;
+    console.log(target.tagName);
+    if(target.tagName === "tr") {
+
+        target.style.backgroundColor = "aqua";
+    }
+
+
+
+
+},false);
+table.addEventListener("mouseout", function(event) {
+    var target = event.target;
+    target.style.backgroundColor = "white";
+
+
+
+
+},false);
+
+
 
