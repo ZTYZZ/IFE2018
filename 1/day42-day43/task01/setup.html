@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>开个餐厅</title>
+    <script src="Customer.js" ></script>
+    <script src="Employee.js" ></script>
+    <script src="Food.js" ></script>
+    <script src="Restaurant.js"></script>
+
+</head>
+<body>
+
+<script>
+    var ifeRestaurant = new Restaurant({
+        cash: 1000000,
+        seats: 20,
+        staff: []
+    });
+
+    var newCook = new Cooker("Tony", 10000);
+    ifeRestaurant.hire(newCook);
+
+    console.log(ifeRestaurant.staff);
+
+    ifeRestaurant.fire(newCook);
+    console.log(ifeRestaurant.staff);
+    newCook.getId();
+</script>
+</body>
+</html>

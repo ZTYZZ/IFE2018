@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6实现开一个餐厅吧</title>
+    <script src="Restaurant.js"></script>
+    <script src="Food.js"></script>
+    <script src="Customer.js"></script>
+    <script src="Employee.js"></script>
+</head>
+<body>
+    <script>
+        var ifeRestaurant = new Restaurant(
+            1000000,
+            20,
+             []
+        );
+
+        var newCook = new Chef("Tony", 10000);
+        ifeRestaurant.hire(newCook);
+
+        console.log(ifeRestaurant.staff);
+
+        ifeRestaurant.fire(newCook);
+        console.log(ifeRestaurant.staff);
+    </script>
+</body>
+</html>
